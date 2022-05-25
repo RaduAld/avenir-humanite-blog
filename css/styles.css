@@ -82,6 +82,11 @@
   display: none;
 }
 
+.mySlides img{
+  max-height: 850px;
+  object-fit: contain;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -11204,6 +11209,7 @@ footer {
 }
 
 header.masthead {
+  max-height: 500px;
   position: relative;
   margin-bottom: 3rem;
   padding-top: calc(8rem + 57px);
@@ -11338,6 +11344,7 @@ header.masthead .site-heading .h1 {
   position: relative;
   margin: auto;
 }
+
 
 
 
